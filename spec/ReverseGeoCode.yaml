@@ -1,0 +1,17 @@
+topic: "geo/ReverseGeoCode"
+cases:
+-
+  name: 'given a geographical point'
+  assertion: 'should return the human-readable address'
+  inputs:
+    in:
+      latitude: 52.5129735
+      longitude: 13.4201313
+  expect:
+    out:
+      -
+        path: '$.address.address29'
+        equals: 'c-base'
+      -
+        path: '$.address.state'
+        equals: 'Berlin'

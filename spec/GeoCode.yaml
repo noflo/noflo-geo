@@ -1,0 +1,20 @@
+topic: "geo/GeoCode"
+cases:
+-
+  name: 'given a human-readable address object'
+  assertion: 'should return coordinates'
+  inputs:
+    in:
+      display_name: 'c-base'
+      street: '20 Rungestrasse'
+      city: 'Berlin'
+      postalcode: '10179'
+      country_code: 'de'
+  expect:
+    out:
+      -
+        path: '$.0.lat'
+        equals: 52.5129735
+      -
+        path: '$.0.lon'
+        equals: 13.4201313
