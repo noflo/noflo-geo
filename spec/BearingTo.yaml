@@ -1,0 +1,15 @@
+topic: "geo/BearingTo"
+cases:
+-
+  name: 'given two geographical points'
+  assertion: 'should calculate the bearing'
+  inputs:
+    from:
+      latitude: 60.254558
+      longitude: 25.042828
+    to:
+      latitude: 60.317222
+      longitude: 24.963333
+  expect:
+    out:
+      equals: 328

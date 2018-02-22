@@ -1,0 +1,11 @@
+topic: "geo/CreatePoint"
+cases:
+-
+  name: 'given latitude and longitude'
+  assertion: 'should create a Point object'
+  inputs:
+    latitude: 60.254558
+    longitude: 25.042828
+  expect:
+    out:
+      equals: '60°15′16″N 25°2′34″E'
