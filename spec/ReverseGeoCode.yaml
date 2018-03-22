@@ -10,7 +10,7 @@ cases:
   expect:
     out:
       -
-        path: '$.address.pub'
+        path: '$.address.address29'
         equals: 'c-base'
       -
         path: '$.address.state'
