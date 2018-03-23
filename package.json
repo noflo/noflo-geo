@@ -2,6 +2,7 @@
   "name": "noflo-geo",
   "description": "Geolocation components for NoFlo",
   "version": "0.2.0",
+  "license": "MIT",
   "author": {
     "name": "Henri Bergius",
     "email": "henri.bergius@iki.fi"
