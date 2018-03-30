@@ -10,8 +10,8 @@ cases:
   expect:
     out:
       -
-        path: '$.address.address29'
-        equals: 'c-base'
+        path: '$.display_name'
+        contains: 'c-base'
       -
         path: '$.address.state'
         equals: 'Berlin'
