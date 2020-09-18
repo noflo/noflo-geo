@@ -13,5 +13,5 @@ cases:
         path: '$.display_name'
         contains: 'c-base'
       -
-        path: '$.address.city_district'
-        equals: 'Mitte'
+        path: '$.address.city'
+        equals: 'Berlin'
